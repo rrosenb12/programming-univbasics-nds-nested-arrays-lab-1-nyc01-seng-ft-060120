@@ -71,7 +71,7 @@ def matrix_lookup(matrix, row, column)
     "Avocadoes",
     "Asparagus"]
   ]
-  produce_storage[1][1]
+  puts produce_storage[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
