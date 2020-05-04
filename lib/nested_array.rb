@@ -51,7 +51,7 @@ def sorted_matrix
     "Avocadoes",
     "Asparagus"]
   ]
-  produce_storage.sort { |a,b| <=> a, b }
+  produce_storage.sort { |a, b| <=> a, b }
 end
 
 def matrix_lookup(matrix, row, column)
