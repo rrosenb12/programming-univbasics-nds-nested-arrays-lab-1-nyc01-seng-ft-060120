@@ -70,6 +70,7 @@ def matrix_lookup(matrix, row, column)
     "Grapes",
     "Avocadoes",
     "Asparagus"]
+  ]
   produce_storage[1][1]
 end
 
