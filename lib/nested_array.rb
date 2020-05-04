@@ -74,6 +74,7 @@ def matrix_lookup(matrix, row, column)
   produce_storage.each do |sub_produce|
     sub_produce.sort!
   end
+  produce_storage[1][1]
 end
 
 def matrix_update(matrix, row, column, new_value)
