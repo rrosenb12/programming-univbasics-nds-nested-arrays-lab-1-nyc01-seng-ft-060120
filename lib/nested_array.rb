@@ -71,9 +71,6 @@ def matrix_lookup(matrix, row, column)
     "Avocadoes",
     "Asparagus"]
   ]
-  produce_storage.each do |sub_produce|
-    sub_produce.sort!
-  end
   produce_storage[row][column]
 end
 
