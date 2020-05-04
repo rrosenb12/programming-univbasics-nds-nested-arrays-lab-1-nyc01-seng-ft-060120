@@ -72,6 +72,7 @@ def matrix_lookup(matrix, row, column)
     "Asparagus"]
   ]
   row.to_i
+  column.to_i
   produce_storage["#{row}"]["#{column}"]
 end
 
